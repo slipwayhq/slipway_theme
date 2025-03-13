@@ -1,2 +1,5 @@
 /artifacts
+/components
 /target
+
+.DS_Store

@@ -1,0 +1,1928 @@
+{
+  "$ref": "#/definitions/HostConfig",
+  "default": {
+    "actions": {
+      "actionAlignment": "stretch",
+      "actionsOrientation": "horizontal",
+      "buttonSpacing": 10,
+      "iconPlacement": "aboveTitle",
+      "iconSize": 30,
+      "maxActions": 5,
+      "preExpandSingleShowCardAction": false,
+      "showCard": {
+        "actionMode": "inline",
+        "inlineTopMargin": 16,
+        "style": "emphasis"
+      },
+      "spacing": "default"
+    },
+    "adaptiveCard": {
+      "allowCustomStyle": true
+    },
+    "choiceSetInputValueSeparator": ", ",
+    "containerStyles": {
+      "accent": {
+        "backgroundColor": "#C7DEF9",
+        "borderColor": "#62A8F7",
+        "borderThickness": 1,
+        "foregroundColors": {
+          "accent": {
+            "default": "#6264a7",
+            "subtle": "#8b8cc7"
+          },
+          "attention": {
+            "default": "#c4314b",
+            "subtle": "#e5c4314b"
+          },
+          "dark": {
+            "default": "#252424",
+            "subtle": "#bf252424"
+          },
+          "default": {
+            "default": "#ff252424",
+            "subtle": "#bf252424"
+          },
+          "good": {
+            "default": "#92c353",
+            "subtle": "#e592c353"
+          },
+          "light": {
+            "default": "#ffffff",
+            "subtle": "#fff3f2f1"
+          },
+          "warning": {
+            "default": "#f8d22a",
+            "subtle": "#e5f8d22a"
+          }
+        },
+        "tableGridLinesColor": null
+      },
+      "attention": {
+        "backgroundColor": "#FFC5B2",
+        "borderColor": "#FF764C",
+        "borderThickness": 1,
+        "foregroundColors": {
+          "accent": {
+            "default": "#6264a7",
+            "subtle": "#8b8cc7"
+          },
+          "attention": {
+            "default": "#c4314b",
+            "subtle": "#e5c4314b"
+          },
+          "dark": {
+            "default": "#252424",
+            "subtle": "#bf252424"
+          },
+          "default": {
+            "default": "#ff252424",
+            "subtle": "#bf252424"
+          },
+          "good": {
+            "default": "#92c353",
+            "subtle": "#e592c353"
+          },
+          "light": {
+            "default": "#ffffff",
+            "subtle": "#fff3f2f1"
+          },
+          "warning": {
+            "default": "#f8d22a",
+            "subtle": "#e5f8d22a"
+          }
+        },
+        "tableGridLinesColor": null
+      },
+      "default": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#CCCCCC",
+        "borderThickness": 0,
+        "foregroundColors": {
+          "accent": {
+            "default": "#6264a7",
+            "subtle": "#8b8cc7"
+          },
+          "attention": {
+            "default": "#c4314b",
+            "subtle": "#e5c4314b"
+          },
+          "dark": {
+            "default": "#252424",
+            "subtle": "#bf252424"
+          },
+          "default": {
+            "default": "#ff252424",
+            "subtle": "#bf252424"
+          },
+          "good": {
+            "default": "#92c353",
+            "subtle": "#e592c353"
+          },
+          "light": {
+            "default": "#ffffff",
+            "subtle": "#fff3f2f1"
+          },
+          "warning": {
+            "default": "#f8d22a",
+            "subtle": "#e5f8d22a"
+          }
+        },
+        "tableGridLinesColor": null
+      },
+      "emphasis": {
+        "backgroundColor": "#fff9f8f7",
+        "borderColor": "#666666",
+        "borderThickness": 1,
+        "foregroundColors": {
+          "accent": {
+            "default": "#6264a7",
+            "subtle": "#8b8cc7"
+          },
+          "attention": {
+            "default": "#c4314b",
+            "subtle": "#e5c4314b"
+          },
+          "dark": {
+            "default": "#252424",
+            "subtle": "#bf252424"
+          },
+          "default": {
+            "default": "#ff252424",
+            "subtle": "#bf252424"
+          },
+          "good": {
+            "default": "#92c353",
+            "subtle": "#e592c353"
+          },
+          "light": {
+            "default": "#ffffff",
+            "subtle": "#fff3f2f1"
+          },
+          "warning": {
+            "default": "#f8d22a",
+            "subtle": "#e5f8d22a"
+          }
+        },
+        "tableGridLinesColor": null
+      },
+      "good": {
+        "backgroundColor": "#CCFFCC",
+        "borderColor": "#69E569",
+        "borderThickness": 1,
+        "foregroundColors": {
+          "accent": {
+            "default": "#6264a7",
+            "subtle": "#8b8cc7"
+          },
+          "attention": {
+            "default": "#c4314b",
+            "subtle": "#e5c4314b"
+          },
+          "dark": {
+            "default": "#252424",
+            "subtle": "#bf252424"
+          },
+          "default": {
+            "default": "#ff252424",
+            "subtle": "#bf252424"
+          },
+          "good": {
+            "default": "#92c353",
+            "subtle": "#e592c353"
+          },
+          "light": {
+            "default": "#ffffff",
+            "subtle": "#fff3f2f1"
+          },
+          "warning": {
+            "default": "#f8d22a",
+            "subtle": "#e5f8d22a"
+          }
+        },
+        "tableGridLinesColor": null
+      },
+      "warning": {
+        "backgroundColor": "#FFE2B2",
+        "borderColor": "#FFBC51",
+        "borderThickness": 1,
+        "foregroundColors": {
+          "accent": {
+            "default": "#6264a7",
+            "subtle": "#8b8cc7"
+          },
+          "attention": {
+            "default": "#c4314b",
+            "subtle": "#e5c4314b"
+          },
+          "dark": {
+            "default": "#252424",
+            "subtle": "#bf252424"
+          },
+          "default": {
+            "default": "#ff252424",
+            "subtle": "#bf252424"
+          },
+          "good": {
+            "default": "#92c353",
+            "subtle": "#e592c353"
+          },
+          "light": {
+            "default": "#ffffff",
+            "subtle": "#fff3f2f1"
+          },
+          "warning": {
+            "default": "#f8d22a",
+            "subtle": "#e5f8d22a"
+          }
+        },
+        "tableGridLinesColor": null
+      }
+    },
+    "factSet": {
+      "spacing": 16,
+      "title": {
+        "color": "default",
+        "fontType": "default",
+        "isSubtle": false,
+        "maxWidth": 150,
+        "size": "default",
+        "weight": "bolder",
+        "wrap": true
+      },
+      "value": {
+        "color": "default",
+        "fontType": "default",
+        "isSubtle": false,
+        "maxWidth": 0,
+        "size": "default",
+        "weight": "default",
+        "wrap": true
+      }
+    },
+    "fontFamily": "sans-serif",
+    "fontSizes": {
+      "default": 14,
+      "extraLarge": 24,
+      "large": 18,
+      "medium": 14,
+      "small": 12
+    },
+    "fontTypes": {
+      "default": {
+        "fontFamily": "sans-serif",
+        "fontSizes": {
+          "default": 14,
+          "extraLarge": 24,
+          "large": 18,
+          "medium": 14,
+          "small": 12
+        },
+        "fontWeights": {
+          "bolder": 600,
+          "default": 400,
+          "lighter": 200
+        }
+      },
+      "monospace": {
+        "fontFamily": "monospace",
+        "fontSizes": {
+          "default": 14,
+          "extraLarge": 24,
+          "large": 18,
+          "medium": 14,
+          "small": 12
+        },
+        "fontWeights": {
+          "bolder": 600,
+          "default": 400,
+          "lighter": 200
+        }
+      }
+    },
+    "fontWeights": {
+      "bolder": 600,
+      "default": 400,
+      "lighter": 200
+    },
+    "imageSet": {
+      "imageSize": "medium",
+      "maxImageHeight": 100
+    },
+    "imageSizes": {
+      "large": 100,
+      "medium": 52,
+      "small": 32
+    },
+    "inputs": {
+      "errorMessage": {
+        "size": "default",
+        "spacing": "default",
+        "weight": "default"
+      },
+      "label": {
+        "inputSpacing": "default",
+        "optionalInputs": {
+          "color": "default",
+          "isSubtle": false,
+          "size": "default",
+          "weight": "default"
+        },
+        "requiredInputs": {
+          "color": "default",
+          "isSubtle": false,
+          "size": "default",
+          "weight": "default"
+        }
+      }
+    },
+    "media": {
+      "allowInlinePlayback": true
+    },
+    "separator": {
+      "lineColor": "#EEEEEE",
+      "lineThickness": 1
+    },
+    "spacing": {
+      "default": 12,
+      "extraLarge": 24,
+      "large": 20,
+      "medium": 16,
+      "padding": 16,
+      "small": 8
+    },
+    "supportsInteractivity": false,
+    "textBlock": {
+      "headingLevel": 2
+    },
+    "textStyles": {
+      "columnHeader": {
+        "color": "default",
+        "fontType": "default",
+        "isSubtle": false,
+        "size": "default",
+        "weight": "bolder"
+      },
+      "heading": {
+        "color": "default",
+        "fontType": "default",
+        "isSubtle": false,
+        "size": "large",
+        "weight": "bolder"
+      }
+    }
+  },
+  "definitions": {
+    "ActionsConfig": {
+      "additionalProperties": false,
+      "description": "Options for `Action`s",
+      "properties": {
+        "actionAlignment": {
+          "default": "stretch",
+          "description": "Control layout of buttons",
+          "enum": [
+            "left",
+            "center",
+            "right",
+            "stretch"
+          ],
+          "type": "string"
+        },
+        "actionsOrientation": {
+          "default": "horizontal",
+          "description": "Controls how buttons are laid out",
+          "enum": [
+            "horizontal",
+            "vertical"
+          ],
+          "type": "string"
+        },
+        "buttonSpacing": {
+          "default": 10,
+          "description": "Controls how much spacing to use between buttons",
+          "type": "integer"
+        },
+        "iconPlacement": {
+          "default": "aboveTitle",
+          "description": "Controls where to place the action icon",
+          "enum": [
+            "aboveTitle",
+            "leftOfTitle"
+          ],
+          "type": "string"
+        },
+        "iconSize": {
+          "default": 30,
+          "description": "Controls size of action icon",
+          "type": "integer"
+        },
+        "maxActions": {
+          "default": 5,
+          "description": "Controls how many actions are allowed in total",
+          "type": "integer"
+        },
+        "preExpandSingleShowCardAction": {
+          "default": false,
+          "description": "Controls whether to pre-expand single show card actions",
+          "type": "boolean"
+        },
+        "showCard": {
+          "$ref": "#/definitions/ShowCardConfig",
+          "default": {
+            "actionMode": "inline",
+            "inlineTopMargin": 16,
+            "style": "emphasis"
+          }
+        },
+        "spacing": {
+          "default": "default",
+          "description": "Controls overall spacing of action element",
+          "enum": [
+            "default",
+            "none",
+            "small",
+            "medium",
+            "large",
+            "extraLarge",
+            "padding"
+          ],
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "AdaptiveCardConfig": {
+      "additionalProperties": false,
+      "description": "Toplevel options for `AdaptiveCards`",
+      "properties": {
+        "allowCustomStyle": {
+          "default": true,
+          "description": "Controls whether custom styling is allowed",
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "ContainerStyleConfig": {
+      "additionalProperties": false,
+      "description": "Controls styling of a container",
+      "properties": {
+        "backgroundColor": {
+          "default": null,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "borderColor": {
+          "default": null,
+          "description": "Color of borders.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "borderThickness": {
+          "description": "Thickness of border line.",
+          "type": "integer"
+        },
+        "foregroundColors": {
+          "$ref": "#/definitions/ForegroundColorsConfig",
+          "default": {
+            "accent": {
+              "default": "#6264a7",
+              "subtle": "#8b8cc7"
+            },
+            "attention": {
+              "default": "#c4314b",
+              "subtle": "#e5c4314b"
+            },
+            "dark": {
+              "default": "#252424",
+              "subtle": "#bf252424"
+            },
+            "default": {
+              "default": "#ff252424",
+              "subtle": "#bf252424"
+            },
+            "good": {
+              "default": "#92c353",
+              "subtle": "#e592c353"
+            },
+            "light": {
+              "default": "#ffffff",
+              "subtle": "#fff3f2f1"
+            },
+            "warning": {
+              "default": "#f8d22a",
+              "subtle": "#e5f8d22a"
+            }
+          }
+        },
+        "tableGridLinesColor": {
+          "default": null,
+          "description": "Color of table grid lines. Falls back to the border color, then separator color.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tableGridLinesThickness": {
+          "description": "Thickness of table grid lines. Falls back to separator thickness.",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "ContainerStylesConfig": {
+      "additionalProperties": false,
+      "description": "Controls styling for default and emphasis containers",
+      "properties": {
+        "accent": {
+          "$ref": "#/definitions/ContainerStyleConfig",
+          "default": {
+            "backgroundColor": "#C7DEF9",
+            "borderColor": "#62A8F7",
+            "borderThickness": 1,
+            "foregroundColors": {
+              "accent": {
+                "default": "#6264a7",
+                "subtle": "#8b8cc7"
+              },
+              "attention": {
+                "default": "#c4314b",
+                "subtle": "#e5c4314b"
+              },
+              "dark": {
+                "default": "#252424",
+                "subtle": "#bf252424"
+              },
+              "default": {
+                "default": "#ff252424",
+                "subtle": "#bf252424"
+              },
+              "good": {
+                "default": "#92c353",
+                "subtle": "#e592c353"
+              },
+              "light": {
+                "default": "#ffffff",
+                "subtle": "#fff3f2f1"
+              },
+              "warning": {
+                "default": "#f8d22a",
+                "subtle": "#e5f8d22a"
+              }
+            },
+            "tableGridLinesColor": null
+          },
+          "description": "Container style to use for accent"
+        },
+        "attention": {
+          "$ref": "#/definitions/ContainerStyleConfig",
+          "default": {
+            "backgroundColor": "#FFC5B2",
+            "borderColor": "#FF764C",
+            "borderThickness": 1,
+            "foregroundColors": {
+              "accent": {
+                "default": "#6264a7",
+                "subtle": "#8b8cc7"
+              },
+              "attention": {
+                "default": "#c4314b",
+                "subtle": "#e5c4314b"
+              },
+              "dark": {
+                "default": "#252424",
+                "subtle": "#bf252424"
+              },
+              "default": {
+                "default": "#ff252424",
+                "subtle": "#bf252424"
+              },
+              "good": {
+                "default": "#92c353",
+                "subtle": "#e592c353"
+              },
+              "light": {
+                "default": "#ffffff",
+                "subtle": "#fff3f2f1"
+              },
+              "warning": {
+                "default": "#f8d22a",
+                "subtle": "#e5f8d22a"
+              }
+            },
+            "tableGridLinesColor": null
+          },
+          "description": "Container style to use for attention"
+        },
+        "default": {
+          "$ref": "#/definitions/ContainerStyleConfig",
+          "default": {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#CCCCCC",
+            "borderThickness": 0,
+            "foregroundColors": {
+              "accent": {
+                "default": "#6264a7",
+                "subtle": "#8b8cc7"
+              },
+              "attention": {
+                "default": "#c4314b",
+                "subtle": "#e5c4314b"
+              },
+              "dark": {
+                "default": "#252424",
+                "subtle": "#bf252424"
+              },
+              "default": {
+                "default": "#ff252424",
+                "subtle": "#bf252424"
+              },
+              "good": {
+                "default": "#92c353",
+                "subtle": "#e592c353"
+              },
+              "light": {
+                "default": "#ffffff",
+                "subtle": "#fff3f2f1"
+              },
+              "warning": {
+                "default": "#f8d22a",
+                "subtle": "#e5f8d22a"
+              }
+            },
+            "tableGridLinesColor": null
+          },
+          "description": "Default container style"
+        },
+        "emphasis": {
+          "$ref": "#/definitions/ContainerStyleConfig",
+          "default": {
+            "backgroundColor": "#fff9f8f7",
+            "borderColor": "#666666",
+            "borderThickness": 1,
+            "foregroundColors": {
+              "accent": {
+                "default": "#6264a7",
+                "subtle": "#8b8cc7"
+              },
+              "attention": {
+                "default": "#c4314b",
+                "subtle": "#e5c4314b"
+              },
+              "dark": {
+                "default": "#252424",
+                "subtle": "#bf252424"
+              },
+              "default": {
+                "default": "#ff252424",
+                "subtle": "#bf252424"
+              },
+              "good": {
+                "default": "#92c353",
+                "subtle": "#e592c353"
+              },
+              "light": {
+                "default": "#ffffff",
+                "subtle": "#fff3f2f1"
+              },
+              "warning": {
+                "default": "#f8d22a",
+                "subtle": "#e5f8d22a"
+              }
+            },
+            "tableGridLinesColor": null
+          },
+          "description": "Container style to use for emphasis"
+        },
+        "good": {
+          "$ref": "#/definitions/ContainerStyleConfig",
+          "default": {
+            "backgroundColor": "#CCFFCC",
+            "borderColor": "#69E569",
+            "borderThickness": 1,
+            "foregroundColors": {
+              "accent": {
+                "default": "#6264a7",
+                "subtle": "#8b8cc7"
+              },
+              "attention": {
+                "default": "#c4314b",
+                "subtle": "#e5c4314b"
+              },
+              "dark": {
+                "default": "#252424",
+                "subtle": "#bf252424"
+              },
+              "default": {
+                "default": "#ff252424",
+                "subtle": "#bf252424"
+              },
+              "good": {
+                "default": "#92c353",
+                "subtle": "#e592c353"
+              },
+              "light": {
+                "default": "#ffffff",
+                "subtle": "#fff3f2f1"
+              },
+              "warning": {
+                "default": "#f8d22a",
+                "subtle": "#e5f8d22a"
+              }
+            },
+            "tableGridLinesColor": null
+          },
+          "description": "Container style to use for good"
+        },
+        "warning": {
+          "$ref": "#/definitions/ContainerStyleConfig",
+          "default": {
+            "backgroundColor": "#FFE2B2",
+            "borderColor": "#FFBC51",
+            "borderThickness": 1,
+            "foregroundColors": {
+              "accent": {
+                "default": "#6264a7",
+                "subtle": "#8b8cc7"
+              },
+              "attention": {
+                "default": "#c4314b",
+                "subtle": "#e5c4314b"
+              },
+              "dark": {
+                "default": "#252424",
+                "subtle": "#bf252424"
+              },
+              "default": {
+                "default": "#ff252424",
+                "subtle": "#bf252424"
+              },
+              "good": {
+                "default": "#92c353",
+                "subtle": "#e592c353"
+              },
+              "light": {
+                "default": "#ffffff",
+                "subtle": "#fff3f2f1"
+              },
+              "warning": {
+                "default": "#f8d22a",
+                "subtle": "#e5f8d22a"
+              }
+            },
+            "tableGridLinesColor": null
+          },
+          "description": "Container style to use for warning"
+        }
+      },
+      "type": "object"
+    },
+    "ErrorMessageConfig": {
+      "additionalProperties": false,
+      "description": "Controls styling for input error messages",
+      "properties": {
+        "size": {
+          "default": "default",
+          "description": "Font size to use for the error message",
+          "enum": [
+            "small",
+            "default",
+            "medium",
+            "large",
+            "extraLarge"
+          ],
+          "type": "string"
+        },
+        "spacing": {
+          "default": "default",
+          "description": "Amount of spacing to be used between input and error message",
+          "enum": [
+            "default",
+            "none",
+            "small",
+            "medium",
+            "large",
+            "extraLarge",
+            "padding"
+          ],
+          "type": "string"
+        },
+        "weight": {
+          "default": "default",
+          "description": "Font weight that should be used for error messages",
+          "enum": [
+            "lighter",
+            "default",
+            "bolder"
+          ],
+          "type": "string"
+        }
+      },
+      "type": "object",
+      "version": "1.3"
+    },
+    "FactSetConfig": {
+      "additionalProperties": false,
+      "description": "Controls the display of `FactSet`s",
+      "properties": {
+        "spacing": {
+          "default": 16,
+          "type": "integer"
+        },
+        "title": {
+          "$ref": "#/definitions/FactSetTextConfig",
+          "default": {
+            "color": "default",
+            "fontType": "default",
+            "isSubtle": false,
+            "maxWidth": 150,
+            "size": "default",
+            "weight": "bolder",
+            "wrap": true
+          }
+        },
+        "value": {
+          "$ref": "#/definitions/FactSetTextConfig",
+          "default": {
+            "color": "default",
+            "fontType": "default",
+            "isSubtle": false,
+            "maxWidth": 0,
+            "size": "default",
+            "weight": "default",
+            "wrap": true
+          }
+        }
+      },
+      "type": "object"
+    },
+    "FactSetTextConfig": {
+      "additionalProperties": false,
+      "description": "Parameters controlling the display of text in a fact set",
+      "properties": {
+        "color": {
+          "$ref": "#/definitions/TextStyleConfigColor",
+          "default": "default"
+        },
+        "fontType": {
+          "$ref": "#/definitions/TextStyleConfigFontType",
+          "default": "default"
+        },
+        "isSubtle": {
+          "default": false,
+          "description": "Indicates if fact set text should be subtle",
+          "type": "boolean"
+        },
+        "maxWidth": {
+          "default": 0,
+          "description": "Maximum width of fact set text",
+          "type": "integer"
+        },
+        "size": {
+          "$ref": "#/definitions/TextStyleConfigSize",
+          "default": "default"
+        },
+        "weight": {
+          "$ref": "#/definitions/TextStyleConfigWeight",
+          "default": "default"
+        },
+        "wrap": {
+          "default": true,
+          "description": "Indicates if fact set text should wrap",
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "FontColorConfig": {
+      "additionalProperties": false,
+      "properties": {
+        "default": {
+          "default": "#ff252424",
+          "description": "Color to use when displaying default text",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subtle": {
+          "default": "#bf252424",
+          "description": "Color to use when displaying subtle text",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "type": "object"
+    },
+    "FontSizesConfig": {
+      "additionalProperties": false,
+      "description": "Controls font size metrics for different text styles",
+      "properties": {
+        "default": {
+          "default": 14,
+          "description": "Default font size",
+          "type": "integer"
+        },
+        "extraLarge": {
+          "default": 24,
+          "description": "Extra large font size",
+          "type": "integer"
+        },
+        "large": {
+          "default": 18,
+          "description": "Large font size",
+          "type": "integer"
+        },
+        "medium": {
+          "default": 14,
+          "description": "Medium font size",
+          "type": "integer"
+        },
+        "small": {
+          "default": 12,
+          "description": "Small font size",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "FontTypeConfig": {
+      "description": "Controls font styles",
+      "properties": {
+        "fontFamily": {
+          "default": "sans-serif",
+          "type": "string"
+        },
+        "fontSizes": {
+          "$ref": "#/definitions/FontSizesConfig",
+          "default": {
+            "default": 14,
+            "extraLarge": 24,
+            "large": 18,
+            "medium": 14,
+            "small": 12
+          }
+        },
+        "fontWeights": {
+          "$ref": "#/definitions/FontWeightsConfig",
+          "default": {
+            "bolder": 600,
+            "default": 400,
+            "lighter": 200
+          }
+        }
+      },
+      "type": "object"
+    },
+    "FontTypesConfig": {
+      "additionalProperties": false,
+      "description": "Controls font styles",
+      "properties": {
+        "default": {
+          "$ref": "#/definitions/FontTypeConfig",
+          "default": {
+            "fontFamily": "sans-serif",
+            "fontSizes": {
+              "default": 14,
+              "extraLarge": 24,
+              "large": 18,
+              "medium": 14,
+              "small": 12
+            },
+            "fontWeights": {
+              "bolder": 600,
+              "default": 400,
+              "lighter": 200
+            }
+          },
+          "description": "Default font type",
+          "unevaluatedProperties": false
+        },
+        "monospace": {
+          "$ref": "#/definitions/FontTypeConfig",
+          "default": {
+            "fontFamily": "monospace",
+            "fontSizes": {
+              "default": 14,
+              "extraLarge": 24,
+              "large": 18,
+              "medium": 14,
+              "small": 12
+            },
+            "fontWeights": {
+              "bolder": 600,
+              "default": 400,
+              "lighter": 200
+            }
+          },
+          "description": "Monospace font type",
+          "unevaluatedProperties": false
+        }
+      },
+      "type": "object"
+    },
+    "FontWeightsConfig": {
+      "additionalProperties": false,
+      "description": "Controls font weight metrics",
+      "properties": {
+        "bolder": {
+          "default": 600,
+          "type": "integer"
+        },
+        "default": {
+          "default": 400,
+          "type": "integer"
+        },
+        "lighter": {
+          "default": 200,
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "ForegroundColorsConfig": {
+      "additionalProperties": false,
+      "description": "Controls various font colors",
+      "properties": {
+        "accent": {
+          "$ref": "#/definitions/FontColorConfig",
+          "default": {
+            "default": "#6264a7",
+            "subtle": "#8b8cc7"
+          }
+        },
+        "attention": {
+          "$ref": "#/definitions/FontColorConfig",
+          "default": {
+            "default": "#c4314b",
+            "subtle": "#e5c4314b"
+          }
+        },
+        "dark": {
+          "$ref": "#/definitions/FontColorConfig",
+          "default": {
+            "default": "#252424",
+            "subtle": "#bf252424"
+          }
+        },
+        "default": {
+          "$ref": "#/definitions/FontColorConfig",
+          "default": {
+            "default": "#ff252424",
+            "subtle": "#bf252424"
+          }
+        },
+        "good": {
+          "$ref": "#/definitions/FontColorConfig",
+          "default": {
+            "default": "#92c353",
+            "subtle": "#e592c353"
+          }
+        },
+        "light": {
+          "$ref": "#/definitions/FontColorConfig",
+          "default": {
+            "default": "#ffffff",
+            "subtle": "#fff3f2f1"
+          }
+        },
+        "warning": {
+          "$ref": "#/definitions/FontColorConfig",
+          "default": {
+            "default": "#f8d22a",
+            "subtle": "#e5f8d22a"
+          }
+        }
+      },
+      "type": "object"
+    },
+    "HostConfig": {
+      "additionalProperties": false,
+      "description": "Contains host-configurable settings",
+      "properties": {
+        "$schema": {
+          "description": "The Host Config schema.",
+          "type": "string"
+        },
+        "actions": {
+          "$ref": "#/definitions/ActionsConfig",
+          "default": {
+            "actionAlignment": "stretch",
+            "actionsOrientation": "horizontal",
+            "buttonSpacing": 10,
+            "iconPlacement": "aboveTitle",
+            "iconSize": 30,
+            "maxActions": 5,
+            "preExpandSingleShowCardAction": false,
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "emphasis"
+            },
+            "spacing": "default"
+          }
+        },
+        "adaptiveCard": {
+          "$ref": "#/definitions/AdaptiveCardConfig",
+          "default": {
+            "allowCustomStyle": true
+          }
+        },
+        "choiceSetInputValueSeparator": {
+          "default": ", ",
+          "description": "Separator to use when displaying multiple values for a `ChoiceSet`",
+          "type": "string"
+        },
+        "containerStyles": {
+          "$ref": "#/definitions/ContainerStylesConfig",
+          "default": {
+            "accent": {
+              "backgroundColor": "#C7DEF9",
+              "borderColor": "#62A8F7",
+              "borderThickness": 1,
+              "foregroundColors": {
+                "accent": {
+                  "default": "#6264a7",
+                  "subtle": "#8b8cc7"
+                },
+                "attention": {
+                  "default": "#c4314b",
+                  "subtle": "#e5c4314b"
+                },
+                "dark": {
+                  "default": "#252424",
+                  "subtle": "#bf252424"
+                },
+                "default": {
+                  "default": "#ff252424",
+                  "subtle": "#bf252424"
+                },
+                "good": {
+                  "default": "#92c353",
+                  "subtle": "#e592c353"
+                },
+                "light": {
+                  "default": "#ffffff",
+                  "subtle": "#fff3f2f1"
+                },
+                "warning": {
+                  "default": "#f8d22a",
+                  "subtle": "#e5f8d22a"
+                }
+              },
+              "tableGridLinesColor": null
+            },
+            "attention": {
+              "backgroundColor": "#FFC5B2",
+              "borderColor": "#FF764C",
+              "borderThickness": 1,
+              "foregroundColors": {
+                "accent": {
+                  "default": "#6264a7",
+                  "subtle": "#8b8cc7"
+                },
+                "attention": {
+                  "default": "#c4314b",
+                  "subtle": "#e5c4314b"
+                },
+                "dark": {
+                  "default": "#252424",
+                  "subtle": "#bf252424"
+                },
+                "default": {
+                  "default": "#ff252424",
+                  "subtle": "#bf252424"
+                },
+                "good": {
+                  "default": "#92c353",
+                  "subtle": "#e592c353"
+                },
+                "light": {
+                  "default": "#ffffff",
+                  "subtle": "#fff3f2f1"
+                },
+                "warning": {
+                  "default": "#f8d22a",
+                  "subtle": "#e5f8d22a"
+                }
+              },
+              "tableGridLinesColor": null
+            },
+            "default": {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#CCCCCC",
+              "borderThickness": 0,
+              "foregroundColors": {
+                "accent": {
+                  "default": "#6264a7",
+                  "subtle": "#8b8cc7"
+                },
+                "attention": {
+                  "default": "#c4314b",
+                  "subtle": "#e5c4314b"
+                },
+                "dark": {
+                  "default": "#252424",
+                  "subtle": "#bf252424"
+                },
+                "default": {
+                  "default": "#ff252424",
+                  "subtle": "#bf252424"
+                },
+                "good": {
+                  "default": "#92c353",
+                  "subtle": "#e592c353"
+                },
+                "light": {
+                  "default": "#ffffff",
+                  "subtle": "#fff3f2f1"
+                },
+                "warning": {
+                  "default": "#f8d22a",
+                  "subtle": "#e5f8d22a"
+                }
+              },
+              "tableGridLinesColor": null
+            },
+            "emphasis": {
+              "backgroundColor": "#fff9f8f7",
+              "borderColor": "#666666",
+              "borderThickness": 1,
+              "foregroundColors": {
+                "accent": {
+                  "default": "#6264a7",
+                  "subtle": "#8b8cc7"
+                },
+                "attention": {
+                  "default": "#c4314b",
+                  "subtle": "#e5c4314b"
+                },
+                "dark": {
+                  "default": "#252424",
+                  "subtle": "#bf252424"
+                },
+                "default": {
+                  "default": "#ff252424",
+                  "subtle": "#bf252424"
+                },
+                "good": {
+                  "default": "#92c353",
+                  "subtle": "#e592c353"
+                },
+                "light": {
+                  "default": "#ffffff",
+                  "subtle": "#fff3f2f1"
+                },
+                "warning": {
+                  "default": "#f8d22a",
+                  "subtle": "#e5f8d22a"
+                }
+              },
+              "tableGridLinesColor": null
+            },
+            "good": {
+              "backgroundColor": "#CCFFCC",
+              "borderColor": "#69E569",
+              "borderThickness": 1,
+              "foregroundColors": {
+                "accent": {
+                  "default": "#6264a7",
+                  "subtle": "#8b8cc7"
+                },
+                "attention": {
+                  "default": "#c4314b",
+                  "subtle": "#e5c4314b"
+                },
+                "dark": {
+                  "default": "#252424",
+                  "subtle": "#bf252424"
+                },
+                "default": {
+                  "default": "#ff252424",
+                  "subtle": "#bf252424"
+                },
+                "good": {
+                  "default": "#92c353",
+                  "subtle": "#e592c353"
+                },
+                "light": {
+                  "default": "#ffffff",
+                  "subtle": "#fff3f2f1"
+                },
+                "warning": {
+                  "default": "#f8d22a",
+                  "subtle": "#e5f8d22a"
+                }
+              },
+              "tableGridLinesColor": null
+            },
+            "warning": {
+              "backgroundColor": "#FFE2B2",
+              "borderColor": "#FFBC51",
+              "borderThickness": 1,
+              "foregroundColors": {
+                "accent": {
+                  "default": "#6264a7",
+                  "subtle": "#8b8cc7"
+                },
+                "attention": {
+                  "default": "#c4314b",
+                  "subtle": "#e5c4314b"
+                },
+                "dark": {
+                  "default": "#252424",
+                  "subtle": "#bf252424"
+                },
+                "default": {
+                  "default": "#ff252424",
+                  "subtle": "#bf252424"
+                },
+                "good": {
+                  "default": "#92c353",
+                  "subtle": "#e592c353"
+                },
+                "light": {
+                  "default": "#ffffff",
+                  "subtle": "#fff3f2f1"
+                },
+                "warning": {
+                  "default": "#f8d22a",
+                  "subtle": "#e5f8d22a"
+                }
+              },
+              "tableGridLinesColor": null
+            }
+          }
+        },
+        "factSet": {
+          "$ref": "#/definitions/FactSetConfig",
+          "default": {
+            "spacing": 16,
+            "title": {
+              "color": "default",
+              "fontType": "default",
+              "isSubtle": false,
+              "maxWidth": 150,
+              "size": "default",
+              "weight": "bolder",
+              "wrap": true
+            },
+            "value": {
+              "color": "default",
+              "fontType": "default",
+              "isSubtle": false,
+              "maxWidth": 0,
+              "size": "default",
+              "weight": "default",
+              "wrap": true
+            }
+          }
+        },
+        "fontFamily": {
+          "deprecated": true,
+          "description": "Font face to use when rendering text",
+          "type": "string"
+        },
+        "fontSizes": {
+          "$ref": "#/definitions/FontSizesConfig",
+          "deprecated": true
+        },
+        "fontTypes": {
+          "$ref": "#/definitions/FontTypesConfig",
+          "default": {
+            "default": {
+              "fontFamily": "sans-serif",
+              "fontSizes": {
+                "default": 14,
+                "extraLarge": 24,
+                "large": 18,
+                "medium": 14,
+                "small": 12
+              },
+              "fontWeights": {
+                "bolder": 600,
+                "default": 400,
+                "lighter": 200
+              }
+            },
+            "monospace": {
+              "fontFamily": "monospace",
+              "fontSizes": {
+                "default": 14,
+                "extraLarge": 24,
+                "large": 18,
+                "medium": 14,
+                "small": 12
+              },
+              "fontWeights": {
+                "bolder": 600,
+                "default": 400,
+                "lighter": 200
+              }
+            }
+          }
+        },
+        "fontWeights": {
+          "$ref": "#/definitions/FontWeightsConfig",
+          "deprecated": true
+        },
+        "imageBaseUrl": {
+          "description": "Base URL to be used when loading resources",
+          "format": "uri",
+          "type": "string"
+        },
+        "imageSet": {
+          "$ref": "#/definitions/ImageSetConfig",
+          "default": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          }
+        },
+        "imageSizes": {
+          "$ref": "#/definitions/ImageSizesConfig",
+          "default": {
+            "large": 100,
+            "medium": 52,
+            "small": 32
+          }
+        },
+        "inputs": {
+          "$ref": "#/definitions/InputsConfig",
+          "default": {
+            "errorMessage": {
+              "size": "default",
+              "spacing": "default",
+              "weight": "default"
+            },
+            "label": {
+              "inputSpacing": "default",
+              "optionalInputs": {
+                "color": "default",
+                "isSubtle": false,
+                "size": "default",
+                "weight": "default"
+              },
+              "requiredInputs": {
+                "color": "default",
+                "isSubtle": false,
+                "size": "default",
+                "weight": "default"
+              }
+            }
+          }
+        },
+        "media": {
+          "$ref": "#/definitions/MediaConfig",
+          "default": {
+            "allowInlinePlayback": true
+          }
+        },
+        "separator": {
+          "$ref": "#/definitions/SeparatorConfig",
+          "default": {
+            "lineColor": "#EEEEEE",
+            "lineThickness": 1
+          }
+        },
+        "spacing": {
+          "$ref": "#/definitions/SpacingsConfig",
+          "default": {
+            "default": 12,
+            "extraLarge": 24,
+            "large": 20,
+            "medium": 16,
+            "padding": 16,
+            "small": 8
+          }
+        },
+        "supportsInteractivity": {
+          "default": false,
+          "description": "Control whether interactive `Action`s are allowed to be invoked",
+          "type": "boolean"
+        },
+        "textBlock": {
+          "$ref": "#/definitions/TextBlockConfig",
+          "default": {
+            "headingLevel": 2
+          }
+        },
+        "textStyles": {
+          "$ref": "#/definitions/TextStylesConfig",
+          "default": {
+            "columnHeader": {
+              "color": "default",
+              "fontType": "default",
+              "isSubtle": false,
+              "size": "default",
+              "weight": "bolder"
+            },
+            "heading": {
+              "color": "default",
+              "fontType": "default",
+              "isSubtle": false,
+              "size": "large",
+              "weight": "bolder"
+            }
+          }
+        }
+      },
+      "type": "object"
+    },
+    "ImageSetConfig": {
+      "additionalProperties": false,
+      "description": "Controls how `ImageSet`s are displayed",
+      "properties": {
+        "imageSize": {
+          "default": "medium",
+          "description": "Controls individual image sizing",
+          "enum": [
+            "auto",
+            "stretch",
+            "small",
+            "medium",
+            "large"
+          ],
+          "type": "string"
+        },
+        "maxImageHeight": {
+          "default": 100,
+          "description": "Constrain image height to this value",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "ImageSizesConfig": {
+      "additionalProperties": false,
+      "description": "Controls `Image` sizes",
+      "properties": {
+        "large": {
+          "default": 100,
+          "description": "Large image size value",
+          "type": "integer"
+        },
+        "medium": {
+          "default": 52,
+          "description": "Medium image size value",
+          "type": "integer"
+        },
+        "small": {
+          "default": 32,
+          "description": "Small image size value",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "InputLabelConfig": {
+      "additionalProperties": false,
+      "description": "Controls display of input labels",
+      "properties": {
+        "color": {
+          "default": "default",
+          "description": "Color of the label",
+          "enum": [
+            "default",
+            "dark",
+            "light",
+            "accent",
+            "good",
+            "warning",
+            "attention"
+          ],
+          "type": "string"
+        },
+        "isSubtle": {
+          "default": false,
+          "description": "Whether the label should be displayed using a lighter weight font",
+          "type": "boolean"
+        },
+        "size": {
+          "default": "default",
+          "description": "Size of the label text",
+          "enum": [
+            "small",
+            "default",
+            "medium",
+            "large",
+            "extraLarge"
+          ],
+          "type": "string"
+        },
+        "suffix": {
+          "description": "Suffix that should be appended to labels of this type",
+          "type": "string"
+        },
+        "weight": {
+          "default": "default",
+          "description": "Font weight that should be used for this type of label",
+          "enum": [
+            "lighter",
+            "default",
+            "bolder"
+          ],
+          "type": "string"
+        }
+      },
+      "type": "object",
+      "version": "1.3"
+    },
+    "InputsConfig": {
+      "additionalProperties": false,
+      "description": "Controls display and behavior of Input types",
+      "properties": {
+        "errorMessage": {
+          "$ref": "#/definitions/ErrorMessageConfig",
+          "default": {
+            "size": "default",
+            "spacing": "default",
+            "weight": "default"
+          }
+        },
+        "label": {
+          "$ref": "#/definitions/LabelConfig",
+          "default": {
+            "inputSpacing": "default",
+            "optionalInputs": {
+              "color": "default",
+              "isSubtle": false,
+              "size": "default",
+              "weight": "default"
+            },
+            "requiredInputs": {
+              "color": "default",
+              "isSubtle": false,
+              "size": "default",
+              "weight": "default"
+            }
+          }
+        }
+      },
+      "type": "object",
+      "version": "1.3"
+    },
+    "LabelConfig": {
+      "additionalProperties": false,
+      "description": "Controls display of input labels",
+      "properties": {
+        "inputSpacing": {
+          "default": "default",
+          "description": "Amount of spacing to be used between label and input",
+          "enum": [
+            "default",
+            "none",
+            "small",
+            "medium",
+            "large",
+            "extraLarge",
+            "padding"
+          ],
+          "type": "string"
+        },
+        "optionalInputs": {
+          "$ref": "#/definitions/InputLabelConfig",
+          "default": {
+            "color": "default",
+            "isSubtle": false,
+            "size": "default",
+            "weight": "default"
+          },
+          "description": "Label config for optional Inputs"
+        },
+        "requiredInputs": {
+          "$ref": "#/definitions/InputLabelConfig",
+          "default": {
+            "color": "default",
+            "isSubtle": false,
+            "size": "default",
+            "weight": "default"
+          },
+          "description": "Label config for required Inputs"
+        }
+      },
+      "type": "object",
+      "version": "1.3"
+    },
+    "MediaConfig": {
+      "additionalProperties": false,
+      "description": "Controls the display and behavior of `Media` elements",
+      "properties": {
+        "allowInlinePlayback": {
+          "default": true,
+          "description": "Whether to display media inline or invoke externally",
+          "type": "boolean"
+        },
+        "defaultPoster": {
+          "description": "URI to image to display when play button hasn't been invoked",
+          "format": "uri",
+          "type": "string"
+        },
+        "playButton": {
+          "description": "Image to display as play button",
+          "format": "uri",
+          "type": "string"
+        }
+      },
+      "type": "object",
+      "version": "1.1"
+    },
+    "SeparatorConfig": {
+      "additionalProperties": false,
+      "description": "Controls how separators are displayed",
+      "properties": {
+        "lineColor": {
+          "default": "#EEEEEE",
+          "description": "Color to use when drawing separator line",
+          "type": "string"
+        },
+        "lineThickness": {
+          "default": 1,
+          "description": "Thickness of separator line",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "ShowCardConfig": {
+      "additionalProperties": false,
+      "description": "Controls behavior and styling of `Action.ShowCard`",
+      "properties": {
+        "actionMode": {
+          "default": "inline",
+          "description": "Controls how the card is displayed. Note: Popup show cards are not recommended for cards with input validation, and may be deprecated in the future.",
+          "enum": [
+            "inline",
+            "popup"
+          ],
+          "type": "string"
+        },
+        "inlineTopMargin": {
+          "default": 16,
+          "description": "Amount of margin to use when displaying the card",
+          "type": "integer"
+        },
+        "style": {
+          "default": "emphasis",
+          "enum": [
+            "default",
+            "emphasis"
+          ],
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "SpacingsConfig": {
+      "additionalProperties": false,
+      "description": "Controls how elements are to be laid out",
+      "properties": {
+        "default": {
+          "default": 12,
+          "description": "Default spacing value",
+          "type": "integer"
+        },
+        "extraLarge": {
+          "default": 24,
+          "description": "Extra large spacing value",
+          "type": "integer"
+        },
+        "large": {
+          "default": 20,
+          "description": "Large spacing value",
+          "type": "integer"
+        },
+        "medium": {
+          "default": 16,
+          "description": "Medium spacing value",
+          "type": "integer"
+        },
+        "padding": {
+          "default": 16,
+          "description": "Padding value",
+          "type": "integer"
+        },
+        "small": {
+          "default": 8,
+          "description": "Small spacing value",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "TextBlockConfig": {
+      "additionalProperties": false,
+      "description": "Configuration settings for TextBlocks",
+      "properties": {
+        "headingLevel": {
+          "default": 2,
+          "description": "When displaying a `TextBlock` element with the `heading` style, this is the heading level exposed to accessibility tools.",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "TextStyleConfig": {
+      "additionalProperties": false,
+      "description": "Sets default properties for text of a given style",
+      "properties": {
+        "color": {
+          "$ref": "#/definitions/TextStyleConfigColor",
+          "default": "default"
+        },
+        "fontType": {
+          "$ref": "#/definitions/TextStyleConfigFontType",
+          "default": "default"
+        },
+        "isSubtle": {
+          "default": false,
+          "description": "Whether text of this style should be subtle by default",
+          "type": "boolean"
+        },
+        "size": {
+          "$ref": "#/definitions/TextStyleConfigSize",
+          "default": "default"
+        },
+        "weight": {
+          "$ref": "#/definitions/TextStyleConfigWeight",
+          "default": "default"
+        }
+      },
+      "type": "object"
+    },
+    "TextStyleConfigColor": {
+      "default": "default",
+      "description": "Default font color for text of this style",
+      "enum": [
+        "default",
+        "dark",
+        "light",
+        "accent",
+        "good",
+        "warning",
+        "attention"
+      ],
+      "type": "string"
+    },
+    "TextStyleConfigFontType": {
+      "default": "default",
+      "description": "Default font type for text of this style",
+      "enum": [
+        "default",
+        "monospace"
+      ],
+      "type": "string"
+    },
+    "TextStyleConfigSize": {
+      "description": "Default font size for text of this style",
+      "enum": [
+        "default",
+        "small",
+        "medium",
+        "large",
+        "extraLarge"
+      ],
+      "type": "string"
+    },
+    "TextStyleConfigWeight": {
+      "description": "Default font weight for text of this style",
+      "enum": [
+        "default",
+        "lighter",
+        "bolder"
+      ],
+      "type": "string"
+    },
+    "TextStylesConfig": {
+      "additionalProperties": false,
+      "description": "Sets default properties for text of a given style",
+      "properties": {
+        "columnHeader": {
+          "$ref": "#/definitions/TextStyleConfig",
+          "default": {
+            "color": "default",
+            "fontType": "default",
+            "isSubtle": false,
+            "size": "default",
+            "weight": "bolder"
+          }
+        },
+        "heading": {
+          "$ref": "#/definitions/TextStyleConfig",
+          "default": {
+            "color": "default",
+            "fontType": "default",
+            "isSubtle": false,
+            "size": "large",
+            "weight": "bolder"
+          }
+        }
+      },
+      "type": "object"
+    }
+  }
+}

@@ -10,7 +10,7 @@
       "name": {
         "enum": [ "none", "color_light", "color_dark" ]
       },
-      "hostConfig": {
+      "host_config": {
         "$ref": "host-config-with-defaults.schema.json#"
       }
     },
@@ -21,11 +21,11 @@
     "$schema": "http://json-schema.org/draft-06/schema#",
     "type": "object",
     "properties": {
-      "hostConfig": {
+      "host_config": {
         "$ref": "host-config-with-defaults.schema.json#"
       }
     },
-    "required": ["hostConfig"],
+    "required": ["host_config"],
     "additionalProperties": false
   }
 }
